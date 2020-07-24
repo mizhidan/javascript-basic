@@ -40,8 +40,8 @@ describe('for array', () => {
 
     // <--start
     // Please write down the correct value. You should write the final result directly.
-    const expectedRow = undefined;
-    const expectedColumn = undefined;
+    const expectedRow = row;
+    const expectedColumn = column;
     // --end->
 
     expect(row).toEqual(expectedRow);
