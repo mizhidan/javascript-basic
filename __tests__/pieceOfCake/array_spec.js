@@ -4,7 +4,7 @@ describe('for array', () => {
 
     // <--start
     // Please write down the correct result. You should write the result directly.
-    const expected = array[2];
+    const expected = 3;
     // --end->
 
     expect(array[2]).toEqual(expected);
@@ -15,9 +15,7 @@ describe('for array', () => {
 
     // <--start
     // Please write one line of code to push some elements in the array to pass the test
-    array.push(6);
-    array.push(7);
-    array.push(8);
+    array.push(6, 7, 8);
     // --end->
 
     expect(array).toEqual([1, 2, 3, 4, 5, 6, 7, 8]);
@@ -29,7 +27,7 @@ describe('for array', () => {
 
     // <--start
     // Please write down the correct value. You should write the final result directly.
-    const expected = newArray;
+    const expected = [9, 1, 2, 3, 4, 5, 10];
     // --end->
 
     expect(newArray).toEqual(expected);
@@ -40,8 +38,8 @@ describe('for array', () => {
 
     // <--start
     // Please write down the correct value. You should write the final result directly.
-    const expectedRow = row;
-    const expectedColumn = column;
+    const expectedRow = 2;
+    const expectedColumn = 3;
     // --end->
 
     expect(row).toEqual(expectedRow);
@@ -54,7 +52,7 @@ describe('for array', () => {
 
     // <--start
     // Please write down the correct value. You should write the final result directly.
-    const expected = undefined;
+    const expected = [2, 4];
     // --end->
 
     expect(filtered).toEqual(expected);
